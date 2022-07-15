@@ -1,4 +1,4 @@
-public class Ponto{
+public abstract class Ponto{
   private int x;
   private int y;
 
@@ -11,6 +11,8 @@ public class Ponto{
     this.x = x;
     this.y = y;
   }
+
+  public abstract String getPosicao();
 
   public int getX(){
     return x;

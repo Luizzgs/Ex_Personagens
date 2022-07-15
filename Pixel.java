@@ -11,6 +11,9 @@ public class Pixel extends Ponto{
     cor = "preto";
   }
 
+  public  String getPosicao(){
+    return "";
+  }
   public Pixel(int x, int y, String cor){
     super(x, y);
     this.cor = cor;
